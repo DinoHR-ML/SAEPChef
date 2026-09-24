@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonte/Poppins.zip') format('zip');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.user_section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfil_img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.user_name{
+    size: 18px;
+}
+
+.perfil_button{
+    background: #1b3c29;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.enterprise_section h1{
+    margin: auto;
+}
+
+.login_button{
+    background: #1b3c29;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search_div{
+    display: flex;
+    padding: 20px;
+}
+
+.search_bar{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    
+}
+
+.mural_div{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #1b3c29;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.recipe_img{
+    position: relative;
+    border-radius: 14px;
+}
+
+.recipe_infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    padding: 3px;
+}
+
+.recipe_hidden_info{
+    visibility: hidden;
+    opacity: 0;
+    font-size: 12px;
+}
+
+.recipe:hover .recipe_hidden_info{
+    visibility: visible;
+    opacity: 1;
+}
+
+.recipe_favorite{
+    display: flex;
+    align-items: center;
+}
+
+.favorite_image{
+    max-width: 24px;
+
+}
